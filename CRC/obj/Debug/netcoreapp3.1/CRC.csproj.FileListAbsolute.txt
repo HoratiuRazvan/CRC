@@ -1,0 +1,13 @@
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.exe
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.deps.json
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.runtimeconfig.json
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.runtimeconfig.dev.json
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.dll
+E:\interviu\CRC\CRC\bin\Debug\netcoreapp3.1\CRC.pdb
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.csprojAssemblyReference.cache
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.AssemblyInfoInputs.cache
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.AssemblyInfo.cs
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.csproj.CoreCompileInputs.cache
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.dll
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.pdb
+E:\interviu\CRC\CRC\obj\Debug\netcoreapp3.1\CRC.genruntimeconfig.cache
