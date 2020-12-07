@@ -15,7 +15,7 @@ namespace CRC
             if (inputFileName.IndexOfAny(Path.GetInvalidFileNameChars()) < 0 || outputFileName.IndexOfAny(Path.GetInvalidFileNameChars()) < 0)
                 return "Numele fisierului este invalid";
             int i;
-            for ( i = inputFileName.Length; i >= 0; i--)
+            for ( i = inputFileName.Length - 1; i >= 0; i--)
                 if (inputFileName[i] == '\\' || inputFileName[i] == '/')
                     break;
             String sourceFolder = inputFileName.Substring(inputFileName.Length - i);
@@ -53,7 +53,8 @@ namespace CRC
                 {
                     binWriter.Write(text.Length);           //Lungimea textului criptat
                     binWriter.Write(text);                  //Textul criptat
-                    binWriter.Write(crc);                   //CRC - null daca nu a fost cerut
+                    if ( crc!=null)
+                        binWriter.Write(crc);                   //CRC - null daca nu a fost cerut
                     
                 }
                 return "Operation completed successfully!";
@@ -73,7 +74,10 @@ namespace CRC
         }
         static void Main(string[] args)
         {
+            String key;
             Console.WriteLine("Hello World!");
+            key = Console.ReadLine();
+            CRC("E:\\interviu\\date.exe", key, "E:\\interviu\\date.exe.out");
         }
     }
 }
